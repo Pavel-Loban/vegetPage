@@ -1,0 +1,53 @@
+.subRight {
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width:606px) {
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+     @media (max-width:400px) {
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .subNavigationRight {
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        border-right: 2px solid gray;
+        margin-right: 24px;
+
+        & img {
+            margin-right: 10px;
+        }
+
+        & span {
+            margin-right: 24px;
+            width: 145px;
+        }
+    }
+
+    .favorite {
+        position: relative;
+        border-right: 2px solid gray;
+        margin-right: 24px;
+
+        & img {
+            margin-right: 24px;
+        }
+        span{
+            position: absolute;
+             top: -3px;
+            left: 23px;
+            color: #7FAD39;
+        }
+    }
+
+    .person {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 24px;
+    }
+}

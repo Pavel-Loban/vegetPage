@@ -1,0 +1,122 @@
+.carousel {
+  min-width: 700px;
+  height: 350px;
+  border: 5px solid white;
+  margin-bottom: 35px;
+  box-shadow: 0 5px 5px #9ea1a3;
+
+  @media (max-width: 730px) {
+    min-width: 390px;
+    height: 250px;
+  }
+
+  @media (max-width: 410px) {
+    min-width: 300px;
+    height: 200px;
+  }
+
+  .carouselInner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    & .center {
+      flex: 80%;
+      height: 100%;
+
+      & .button {
+        background: #7fad39;
+        width: 125px;
+        height: 50px;
+        font-size: 12px;
+        border-radius: 0px;
+        float: right;
+        margin-right: 12px;
+        margin-top: 160px;
+
+        @media (max-width: 730px) {
+          margin-top: 60px;
+        }
+        @media (max-width: 410px) {
+          margin-top: 20px;
+          width: 100px;
+          height: 30px;
+        }
+      }
+
+      & .info {
+        background: white;
+        width: 200px;
+        height: 99px;
+        margin-left: 6px;
+        margin-top: 20px;
+        padding: 10px 35px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        & span {
+          color: #7fad39;
+        }
+
+        & div {
+          color: #2a2a2a;
+        }
+
+        & p {
+          color: #757575;
+        }
+      }
+
+      & .btnCart {
+        width: 125px;
+        height: 50px;
+        float: right;
+        margin-right: 12px;
+        margin-top: 160px;
+        background: #7fad39;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 8px;
+        cursor: pointer;
+        transition: background 0.2s ease-in;
+
+        &:active {
+          background: #afd17c;
+          transition: background 0.1s ease-in;
+        }
+
+        & span {
+          color: white;
+        }
+      }
+    }
+
+    & .left {
+      flex: 5%;
+      height: 100%;
+      background-color: rgb(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      cursor: pointer;
+    }
+
+    & .right {
+      flex: 5%;
+      height: 100%;
+      background-color: rgb(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

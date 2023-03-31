@@ -1,0 +1,133 @@
+$orange: #fe5f1e;
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    flex-wrap: wrap;
+
+    @media (max-width:670px) {
+        // flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    & .selectNav{
+        display: flex;
+
+        @media (max-width:670px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    &__label {
+        display: flex;
+        align-items: center;
+        background: #E5E5E5;
+        padding: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        width: 270px;
+
+        svg {
+            margin-right: 8px;
+        }
+
+        b {
+            margin-right: 8px;
+        }
+
+        span {
+            color: $orange;
+            border-bottom: 1px dashed $orange;
+            cursor: pointer;
+        }
+    }
+
+    &__popup {
+        position: absolute;
+        //   position: relative;
+        //   right: 0;
+        margin-left: 75px;
+        // top: 120px;
+        margin-top: 10px;
+        background: #ffffff;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 10px 0;
+        width: 200px;
+        z-index: 2;
+
+        ul {
+            overflow: hidden;
+
+            li {
+                padding: 12px 20px;
+                cursor: pointer;
+
+                &.active,
+                &:hover {
+                    background: #000000;
+                    border-radius: 5px;
+                    color:#ffffff;
+                }
+
+                &.active {
+                    font-weight: bold;
+                    color: $orange;
+                }
+            }
+        }
+    }
+
+    .navList {
+        display: flex;
+
+        & ul {
+            margin-left: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            // text-align: center;
+            & li {
+                margin-right: 35px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .btnCart {
+        width: 125px;
+        height: 50px;
+        // left: 1420px;
+        // top: 15px;
+        border-radius: 0px;
+        background: #7FAD39;
+        // display: flex;
+        justify-content: space-around;
+        // align-items:center;
+        // padding: 8px;
+        // cursor: pointer;
+        // transition: background 0.2s ease-in;
+
+        // &:active{
+            // background: #afd17c;
+            // transition: background 0.1s ease-in ;
+        // }
+        & span{
+            color:white;
+        }
+        &:hover{
+            background: #7FAD39;
+        }
+
+    }
+}
+
+.textColor {
+    color: #7FAD39;
+}

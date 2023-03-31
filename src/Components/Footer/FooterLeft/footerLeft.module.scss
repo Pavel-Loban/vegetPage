@@ -1,0 +1,11 @@
+.footerLeft {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 50%;
+
+    @media (max-width:550px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

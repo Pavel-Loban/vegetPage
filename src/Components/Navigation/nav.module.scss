@@ -1,0 +1,43 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 47px;
+    left: 0px;
+    top: 0px;
+    background: #2A2A2A;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 1;
+    // margin-bottom: 50px;
+}
+
+.navLeft{
+    cursor: pointer;
+    border-right: 2px solid rgb(165, 160, 160);
+    padding:0 20px;
+}
+.mail{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.textSpan{
+    font-size: 12px;
+}
+
+.navRight{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding:0 20px;
+}
+
+.textSpanRight{
+    margin-right: 5px;
+}
+
+.svgBlockNav{
+    margin-left: 20px;
+}

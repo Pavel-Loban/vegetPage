@@ -1,0 +1,90 @@
+.subNav {
+
+    padding-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background: white;
+    flex: 0 1 65%;
+    flex-wrap: wrap;
+
+
+
+    img {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        height: 36px;
+
+        @media (max-width:606px) {
+
+            justify-content: center;
+        }
+         @media (max-width:360px) {
+        max-width: 300px;
+    }
+    }
+
+    .search {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-height: 36px;
+        background: #E5E5E5;
+        border-radius: 3px;
+        margin-left: 26px;
+        font-size: 16px;
+        width: 340px;
+
+        @media (max-width:400px) {
+            width: 100%;
+            margin-left:0px;
+            padding-left: 20px;
+        }
+    }
+
+
+    .inputSearch {
+        width: 300px;
+        background: #E5E5E5;
+        &::-webkit-input-placeholder {
+            color: rgb(155, 148, 148);
+        }
+    }
+
+
+}
+.chooseLink{
+    color:#7FAD39;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 6px 16px;
+}
+
+.menuLink{
+    padding: 0;
+}
+
+.closeIcon{
+    width: 22px;
+    height: 22px;
+    opacity: 0.3;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}

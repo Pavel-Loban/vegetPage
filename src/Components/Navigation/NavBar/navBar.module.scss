@@ -1,0 +1,134 @@
+$orange: #fe5f1e;
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    flex-wrap: wrap;
+    background: white;
+
+    @media (max-width:670px) {
+        justify-content: center;
+    }
+
+    @media (max-width:420px) {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    & .selectNav{
+        display: flex;
+
+        @media (max-width:670px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    &__label {
+        display: flex;
+        align-items: center;
+        background: #E5E5E5;
+        padding: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        width: 245px;
+
+        svg {
+            margin-right: 8px;
+        }
+
+        b {
+            margin-right: 8px;
+        }
+
+        span {
+            color: $orange;
+            border-bottom: 1px dashed $orange;
+            cursor: pointer;
+        }
+    }
+
+    &__popup {
+        position: absolute;
+        margin-left: 75px;
+        margin-top: 55px;
+        background: #ffffff;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 10px 0;
+        width: 160px;
+        z-index: 2;
+
+        ul {
+            overflow: hidden;
+
+            li {
+                padding: 12px 20px;
+                cursor: pointer;
+
+                &.active,
+                &:hover {
+                    background: rgba(254, 95, 30, 0.05);
+                }
+
+                &.active {
+                    font-weight: bold;
+                    color: $orange;
+                }
+            }
+        }
+    }
+
+    .navList {
+        display: flex;
+
+        & ul {
+            margin-left: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @media (max-width:420px) {
+                flex-direction: column;
+            }
+
+            & li {
+                margin-right: 35px;
+                cursor: pointer;
+
+                @media (max-width:420px) {
+                    margin-bottom: 10px;
+                }
+            }
+
+        }
+    }
+
+    .btnCart {
+        width: 125px;
+        height: 50px;
+        border-radius: 0px;
+        background: #7FAD39;
+        justify-content: space-around;
+        & span{
+            color:white;
+        }
+        &:hover{
+            background: #698f2f;
+        }
+
+        @media (max-width:420px) {
+            margin-bottom: 10px;
+        }
+
+    }
+}
+
+.textColor {
+    color: #7FAD39;
+}

@@ -1,0 +1,11 @@
+.footer {
+    background: black;
+    color: white;
+    display: flex;
+    padding-top: 52px;
+
+    @media (max-width:1050px) {
+        flex-direction: column;
+    }
+}
+
