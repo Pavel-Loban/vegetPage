@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vegetPage/static/css/main.40a15d6e.css",
-    "main.js": "/vegetPage/static/js/main.f0c104d6.js",
+    "main.js": "/vegetPage/static/js/main.36a108b0.js",
     "static/media/vegetables.jpg": "/vegetPage/static/media/vegetables.e68e04cd51761ddcdec8.jpg",
     "static/media/fruits.jpg": "/vegetPage/static/media/fruits.ad43c64875732c501850.jpg",
     "static/media/nuts.jpg": "/vegetPage/static/media/nuts.7a52dc0f5a86f2010785.jpg",
@@ -29,10 +29,10 @@
     "static/media/mail.svg": "/vegetPage/static/media/mail.8780fad9a1acb240b1ff35bd2e329b61.svg",
     "static/media/Vector.svg": "/vegetPage/static/media/Vector.330314a2e76af1ca81fe39503cae272e.svg",
     "main.40a15d6e.css.map": "/vegetPage/static/css/main.40a15d6e.css.map",
-    "main.f0c104d6.js.map": "/vegetPage/static/js/main.f0c104d6.js.map"
+    "main.36a108b0.js.map": "/vegetPage/static/js/main.36a108b0.js.map"
   },
   "entrypoints": [
     "static/css/main.40a15d6e.css",
-    "static/js/main.f0c104d6.js"
+    "static/js/main.36a108b0.js"
   ]
 }
