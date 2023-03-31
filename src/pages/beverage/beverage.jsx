@@ -25,7 +25,8 @@ const Beverage = () => {
     const sortBy = sortType.sortProperty.replace('-', '');
     const search = searchValue ? `&search=${searchValue}` : '';
 
-    const newArr = `https://63374daf132b46ee0be02302.mockapi.io/fruits?sortBy=${sortBy}&order=${order}${search}`;
+    // const newArr = `https://63374daf132b46ee0be02302.mockapi.io/fruits?sortBy=${sortBy}&order=${order}${search}`;
+    const newArr = `https://63374daf132b46ee0be02302.mockapi.io/fruits?sortBy=${sortBy}&order=${order}`;
 
 
   return ((

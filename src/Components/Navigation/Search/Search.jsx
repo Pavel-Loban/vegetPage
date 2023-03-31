@@ -33,7 +33,7 @@ const Search = () => {
       inputRef.current?.focus();
   }
 
-
+//mockApi bad search
   const updateSearchValue = React.useCallback(
     debounce((str) => {
       dispatch(setSearchValue(str));
@@ -42,8 +42,8 @@ const Search = () => {
   )
   const onChangeInput = (e) => {
     setValue(e.target.value);
-    console.log(value)
-    updateSearchValue(e.target.value);
+    // updateSearchValue(e.target.value);
+    dispatch(setSearchValue(e.target.value));
   }
 
   React.useEffect(() => {

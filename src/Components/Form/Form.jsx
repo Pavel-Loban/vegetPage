@@ -8,9 +8,6 @@ const Form = ({title, handlClick, Shema}) => {
 
 
     const {alertAuth} = useSelector((state) => state.user )
-    // const [email,setEmail] = useState('');
-    // const [pass,setPass] = useState('');
-    // const [name,setName] = useState('');
 
 const getReg = (email,pass,uName) => {
     try {
@@ -33,9 +30,7 @@ const getReg = (email,pass,uName) => {
                     password: '',
                     userName: '',
                 }}
-                // validationSchema={SchemaRegistration}
                 validationSchema={Shema}
-                // onSubmit={(values) => console.log(values.email,values.password,values.userName)}
                 onSubmit={(values) => getReg(values.email,values.password,values.userName)}
             >
                 {({

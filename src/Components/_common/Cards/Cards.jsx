@@ -53,7 +53,7 @@ const dispatch = useDispatch();
                         component='img'
                         alt={item.title}
                         title={item.title}
-                        sx={{ height: 200 }}
+                        sx={{ height: 200, cursor:'pointer' }}
                         // onClick={() => getItem(link,id)}
                         // getItem={getItem}
                         onClick={() => toItem(id)}

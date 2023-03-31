@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/vegetPage/static/css/main.40a15d6e.css",
+    "main.js": "/vegetPage/static/js/main.36a108b0.js",
+    "static/media/vegetables.jpg": "/vegetPage/static/media/vegetables.e68e04cd51761ddcdec8.jpg",
+    "static/media/fruits.jpg": "/vegetPage/static/media/fruits.ad43c64875732c501850.jpg",
+    "static/media/nuts.jpg": "/vegetPage/static/media/nuts.7a52dc0f5a86f2010785.jpg",
+    "static/media/dairy.jpg": "/vegetPage/static/media/dairy.899c4e8a29cbaa574569.jpg",
+    "static/media/beverage.jpg": "/vegetPage/static/media/beverage.4d15d875fff335ae7f66.jpg",
+    "static/media/footerLogo.svg": "/vegetPage/static/media/footerLogo.a5d3419a2309764af095490a0e81b640.svg",
+    "static/media/logo.svg": "/vegetPage/static/media/logo.604888625ddbc41a18b4d730c130e627.svg",
+    "static/media/AppStore.svg": "/vegetPage/static/media/AppStore.701f6cbafbfdb1b646195614d87a4083.svg",
+    "static/media/MasterCard-light.svg": "/vegetPage/static/media/MasterCard-light.c3c812bc1cb5c59e66b5b2848205acc3.svg",
+    "static/media/googlePlay.svg": "/vegetPage/static/media/googlePlay.b631f5866b9365ec54fee29f95f9fff8.svg",
+    "static/media/Maestro-light.svg": "/vegetPage/static/media/Maestro-light.b0c7c90190587224e42ae24e673aa26b.svg",
+    "static/media/Cirrus-light.svg": "/vegetPage/static/media/Cirrus-light.9b2dd1e16f7abbd31ef8966584620d70.svg",
+    "static/media/AmericanExpress-light.svg": "/vegetPage/static/media/AmericanExpress-light.dafc5f2d5b13971339b42bca2b62a175.svg",
+    "static/media/Visa-light.svg": "/vegetPage/static/media/Visa-light.1497b4184d9ad39ad9e0895bedbe5ced.svg",
+    "static/media/twitter.svg": "/vegetPage/static/media/twitter.b9371476ff0c7f9d42600621fc309550.svg",
+    "static/media/phone.svg": "/vegetPage/static/media/phone.8c70c342ee698d4b6432c9b15790cc8d.svg",
+    "static/media/phone2.svg": "/vegetPage/static/media/phone2.ebaca4c424ff538a99bb295cb0ff14eb.svg",
+    "static/media/cart.svg": "/vegetPage/static/media/cart.a8a16121b6d8c799822951c537bba0d9.svg",
+    "static/media/linke.svg": "/vegetPage/static/media/linke.0b17f4f6ad82e2f87bac5ab9d8197968.svg",
+    "static/media/favorite.svg": "/vegetPage/static/media/favorite.e0cbd957824babf2bd1d3cd6f288147e.svg",
+    "index.html": "/vegetPage/index.html",
+    "static/media/person.svg": "/vegetPage/static/media/person.11a28cdf5d6f74460f7d3dff7ae17340.svg",
+    "static/media/search.svg": "/vegetPage/static/media/search.f795997c49e5fb8d3b19de575a7703a7.svg",
+    "static/media/faceBook.svg": "/vegetPage/static/media/faceBook.fcae6cc2dbeb2f2e002a3d6169c99b8f.svg",
+    "static/media/mail.svg": "/vegetPage/static/media/mail.8780fad9a1acb240b1ff35bd2e329b61.svg",
+    "static/media/Vector.svg": "/vegetPage/static/media/Vector.330314a2e76af1ca81fe39503cae272e.svg",
+    "main.40a15d6e.css.map": "/vegetPage/static/css/main.40a15d6e.css.map",
+    "main.36a108b0.js.map": "/vegetPage/static/js/main.36a108b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40a15d6e.css",
+    "static/js/main.36a108b0.js"
+  ]
+}

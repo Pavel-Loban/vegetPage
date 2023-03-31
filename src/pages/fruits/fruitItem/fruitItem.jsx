@@ -27,7 +27,6 @@ const FruitItem = () => {
       .get(newArr)
       .then((res) => {
         setFruits(res.data);
-        // console.log(res.data[0].vegetables)''
       })
       .catch((error) => {
         setError(error);

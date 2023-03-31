@@ -21,8 +21,6 @@ const SingUp = () => {
         const auth = getAuth();
         createUserWithEmailAndPassword(auth, email, password)
         .then(({user}) => {
-            console.log(user)
-
             dispatch(setUser({
                 email: user.email,
                 id: user.uid,
@@ -30,15 +28,8 @@ const SingUp = () => {
                 nameUser: name,
             }));
             localStorage.setItem('tokenVeget',JSON.stringify(user))
-            console.log(localStorage.getItem('tokenVeget'))
             push('/')
         })
-        .then((result) => {
-            console.log(result)
-            // return result.user.updateProfile({
-            //   displayName: name,
-            // })
-          })
         .catch(console.error)
     }
 

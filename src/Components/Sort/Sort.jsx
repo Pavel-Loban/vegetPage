@@ -24,7 +24,6 @@ const Sort = () => {
   const sortRef = React.useRef(null);
 
   const onSelected = (obj) => {
-    console.log(obj)
     dispatch(setSort(obj));
     setIsVisible(false);
   }
@@ -34,7 +33,6 @@ const Sort = () => {
 
       if(sortRef.current && !e.path.includes(sortRef.current)){
        setIsVisible(false);
-       console.log(sortRef)
       }
     }
     document.body.addEventListener('click',onClickOutsideSort);

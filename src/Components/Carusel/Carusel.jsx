@@ -58,9 +58,7 @@ const Carusel = () => {
     },
   ]
 
-  const getCount = () => {
-    console.log(img)
-  }
+
 
   return (
     <div className={styles.carousel}>
@@ -80,7 +78,7 @@ const Carusel = () => {
           </div>
           <Link to={images[img].link}>
           <Button variant="contained" className={styles.button}
-          onClick={getCount}>
+          >
             SHOP NOW
             </Button>
             </Link>

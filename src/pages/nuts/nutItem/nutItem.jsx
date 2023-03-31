@@ -25,7 +25,6 @@ const NutItem = () => {
       .get(newArr)
       .then((res) => {
         setNuts(res.data);
-        // console.log(res.data[0].vegetables)''
       })
       .catch((error) => {
         setError(error);

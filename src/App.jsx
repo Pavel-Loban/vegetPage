@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Router, Routes, Route, Navigate } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 import './App.scss';
 import Footer from "./Components/Footer/Footer";
@@ -37,7 +38,8 @@ function App() {
 
   return (
 
-    <Router basename="/">
+    // <Router basename="/vegetPage">
+      <HashRouter basename="/">
 
       <div className="App">
         {/* {isAuth ? <Navigation /> : ''} */}
@@ -47,7 +49,6 @@ function App() {
           <Routes >
 
             <Route path="/login" element={<LoginPage />} />
-            {/* <Route path="/login" element={ <Navigate to={tokenVeget ? '/' : '/login'} /> }  /> */}
             <Route path="/register" element={<RegisterPage />} />
             <Route path='/home' element={<Home />} />
             <Route path='/' element={<Navigate to={tokenVeget ? '/home' : '/login'} /> } />
@@ -66,7 +67,7 @@ function App() {
             <Route path="/eggs&dairy" element={<EggsDairy />} />
             <Route path="/eggs&dairy/:id" element={<EggsDairyItem />} />
             <Route path="/404" element={<PageNotFound />} />
-            {/* <Route path="*" element={<Navigate replace to='/404' /> } /> */}
+            <Route path="*" element={<Navigate replace to='/404' /> } />
             <Route path="/shoppingCart" element={<ShoppingCart />} />
 
           </Routes>
@@ -74,7 +75,8 @@ function App() {
         {/* {isAuth ? <Footer /> : ''} */}
         { tokenVeget ? <Footer/> : ''}
       </div>
-    </Router>
+    {/* </Router> */}
+    </HashRouter>
   );
 
 }

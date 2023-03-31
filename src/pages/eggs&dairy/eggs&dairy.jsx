@@ -22,8 +22,8 @@ const EggsDairy = () => {
   const location = useLocation();
   const pageName = location.pathname.substring(1)[0].toUpperCase() +location.pathname.substring(1).slice(1)
 
-    const newArr = `https://63374daf132b46ee0be02302.mockapi.io/eggs?sortBy=${sortBy}&order=${order}${search}`;
-
+    // const newArr = `https://63374daf132b46ee0be02302.mockapi.io/eggs?sortBy=${sortBy}&order=${order}${search}`;
+    const newArr = `https://63374daf132b46ee0be02302.mockapi.io/eggs?sortBy=${sortBy}&order=${order}`;
 
     return  ((
       <div>
